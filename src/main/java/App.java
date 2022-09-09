@@ -23,8 +23,8 @@ public class App {
                 (Cat) applicationContext.getBean("nameCat");
         System.out.println(bean3.getName());
 
-        System.out.println(bean.equals(bean1));
-        System.out.println(bean2.equals(bean3));
+        System.out.println(bean == bean1);
+        System.out.println(bean2 == bean3);
 
     }
 }
